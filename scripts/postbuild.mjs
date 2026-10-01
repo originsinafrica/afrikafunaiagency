@@ -15,6 +15,7 @@ if (!response.ok) {
 const html = await response.text();
 
 await mkdir(publicDir, { recursive: true });
+await rm(resolve(publicDir, "favicon.ico"), { force: true });
 await writeFile(resolve(publicDir, "index.html"), html, "utf-8");
 
 await rm(distDir, { recursive: true, force: true });
