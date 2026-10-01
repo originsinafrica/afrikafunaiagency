@@ -1,0 +1,19 @@
+{
+  "source": "https://github.com/originsinafrica/africafunaiagency.git",
+  "capabilities": [
+    {
+      "capability": "code",
+      "source": "GitHub repository",
+      "outcome": "compare and selectively merge",
+      "status": "blocked",
+      "next_action": "Provide repository access or attach a ZIP archive"
+    },
+    {
+      "capability": "requested wording",
+      "source": "current project",
+      "outcome": "Rename Zemzem to Zem Zem",
+      "status": "implemented",
+      "next_action": "Verify wording change in preview"
+    }
+  ]
+}
